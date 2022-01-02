@@ -1,0 +1,11 @@
+// No codigo
+
+! + enter => Digita toda a base html inicial
+
+
+// Na pagina
+
+open with liveserver => abrir o html com essa extensao para ter atualizacao dinamica
+
+ctrl + shift + r  => Hard reload no navegador
+
