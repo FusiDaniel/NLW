@@ -6,52 +6,45 @@
     <!-- Aqui colocam-se as configuracoes do documento  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="themme-color" content="#8257E5">
     <title>Proffy | Sua plataforma de estudos online</title>
 
+    <link rel="shortchut icon" href="/images/logo.svg" type="image/svg">
 
-    <!-- <style>
-
-        /* h1 {color: red;} */
-        /* Aqui eu criei uma CLASSE chamada cor1, e eu posso acessar ela como atributo para tags*/
-        .cor1 {
-            color: red;
-        }
-        /* Aqui eu crei um ID chamado page-landing */
-        #page-landing {
-            color: green;
-        }
-
-        /* eh possivel concatecar, fazer um ID de um classe, por exemplo */
-        .bodie #page-landing {
-            color: blueviolet;
-        }
-
-    </style> -->
-
-    <link rel="stylesheet" href="/style.css"> <!-- Colocando o / no comeco do arquivo faz ele procurar na pagina-->
-
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/page-landing.css">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
         rel="stylesheet">
-
 
 </head>
 
 <body id="page-landing">
     <!-- Todo conteudo da pagina deve vir na tag body-->
     <div id="container">
-        <h1>Proffy</h1>
+        <div class="logo-container">
+            <img src="/images/logo.svg" alt="Proffy">
+            <h2>Sua plataforma de estudos online</h2>
+        </div>
 
-        <p>
-            Sua plataforma de estudos online
+        <img class="hero-image" src="/images/landing.svg" alt="Plataforma de Estudos">
+
+        <div class="buttons-container">
+            <a class="study" href="/study.html">
+                <img src="/images/icons/study.svg" alt="Estudar">
+                Estudar
+            </a>
+            <a class="give-classes" href="/give-classes.html">
+                <img src="/images/icons/give-classes.svg" alt="Dar aulas">
+                Dar Aulas
+            </a>
+        </div>
+
+        <p class="total-connections">
+            Total de 200 conexões já realizadas 
+            <img src="/images/icons/purple-heart.svg" alt="Coração roxo">
         </p>
-
-        <img src="/images/logo.svgaaa" alt="Logo">
-
-        <button>Estudar</button>
-        <button>Dar Aulas</button>
- 
     </div>
 </body>
 

@@ -1,7 +1,13 @@
 // No codigo
 
+alt + z => quebra visualmente as linhas do vscode
+
 ! + enter => Digita toda a base html inicial
 
+.nome_da_classe => cria uma div com a classe
+p.nome_da_classe => cria um p com a classe
+
+seleciona uma palavra e vai dando ctrl + d => ele seleciona palavras iguais
 
 // Na pagina
 
