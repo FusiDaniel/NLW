@@ -15,6 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
         rel="stylesheet">
 
+    <script src="scripts/addField.js" defer></script>
 </head>
 
 <body id="page-give-classes">
@@ -87,7 +88,7 @@
 
                 <fieldset id="schedule-items">
                     <legend>Horários disponíveis
-                        <button id="add-time">+ Novo horário</button>
+                        <button type="button" id="add-time">+ Novo horário</button>
                     </legend>
 
                     <div class="schedule-item">
@@ -118,33 +119,6 @@
 
                     </div>
 
-                    <div class="schedule-item">
-                        <div class="select-block">
-                            <label for="weekday">Dia da semana</label>
-                            <!-- O [] do name significa que ele vai poder admitir um array de valores -->
-                            <select name="weekday[]" required>
-                                <option value="">Selecione uma opção</option>
-                                <option value="0">Domingo</option>
-                                <option value="1">Segunda-feira</option>
-                                <option value="2">Terça-feira</option>
-                                <option value="3">Quarta-feira</option>
-                                <option value="4">Quinta-feira</option>
-                                <option value="5">Sexta-feira</option>
-                                <option value="6">Sábado</option>
-                            </select>
-                        </div>
-
-                        <div class="input-block">
-                            <label for="time_from">Das</label>
-                            <input type="time" name="time-from[]" required>
-                        </div>
-
-                        <div class="input-block">
-                            <label for="time_to">Até</label>
-                            <input type="time" name="time-to[]" required>
-                        </div>
-
-                    </div>
                 </fieldset>
 
                 
