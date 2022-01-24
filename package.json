@@ -1,0 +1,25 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "http://notion.so/maykbrito/Front-end-ab15ef64dbe7459aba38364cf60af9d2 https://www.figma.com/file/Ef1gLYvZok30tkyWM1Ihj5/Proffy_Web?node-id=0%3A1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FusiDaniel/NLW.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FusiDaniel/NLW/issues"
+  },
+  "homepage": "https://github.com/FusiDaniel/NLW#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nunjucks": "^3.2.3",
+    "sqlite-async": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
