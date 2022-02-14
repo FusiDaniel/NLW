@@ -1,7 +1,5 @@
 const Database = require("sqlite-async")
-cost createProffy = require("./createProffy")
-
-
+const createProffy = require("./createProffy")
 function execute(db) {
     // creating db tables
     return db.exec(`
@@ -15,7 +13,7 @@ function execute(db) {
 
         CREATE TABLE IF NOT EXISTS classes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            subject TEXT,
+            subject INTEGER,
             cost TEXT,
             proffy_id INTEGER
         );
